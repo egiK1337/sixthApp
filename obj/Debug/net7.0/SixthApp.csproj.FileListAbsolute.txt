@@ -1,0 +1,15 @@
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.csproj.AssemblyReference.cache
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.AssemblyInfoInputs.cache
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.AssemblyInfo.cs
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.csproj.CoreCompileInputs.cache
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\bin\Debug\net7.0\SixthApp.exe
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\bin\Debug\net7.0\SixthApp.deps.json
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\bin\Debug\net7.0\SixthApp.runtimeconfig.json
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\bin\Debug\net7.0\SixthApp.dll
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\bin\Debug\net7.0\SixthApp.pdb
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.dll
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\refint\SixthApp.dll
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.pdb
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\SixthApp.genruntimeconfig.cache
+C:\Users\Stanislav Lukashov\Desktop\проги\обучение\SixthApp\SixthApp\obj\Debug\net7.0\ref\SixthApp.dll
