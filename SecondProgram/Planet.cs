@@ -1,5 +1,4 @@
-﻿
-namespace SixthApp
+﻿namespace SixthApp
 {
     public class Planet
     {

@@ -4,45 +4,52 @@ namespace SixthApp.SecondProgram
     public class PlanetCatalog
     {
         public List<Planet> PlanetList { get; set; } = new List<Planet>();
-        private Planet firstPlanet;
-        public int callСounter;
+        private Planet _firstPlanet;
+        private int _callСounter;
         public delegate string PlanetValidator(string planetName);
 
         public PlanetCatalog()
         {
-            firstPlanet = new Planet()
+            _firstPlanet = new Planet()
             {
                 Name = "Venus",
                 OrdinalNumber = 2,
                 EquatorLength = 38025
             };
-            PlanetList.Add(firstPlanet);
-            var temp = firstPlanet;
+
+            PlanetList.Add(_firstPlanet);
+
+            var temp = _firstPlanet;
+
             var secondPlanet = new Planet()
             {
                 Name = "Earth",
                 OrdinalNumber = 3,
                 EquatorLength = 40075
             };
+
             PlanetList.Add(secondPlanet);
+
             secondPlanet.PreviousPlanet = temp;
+
             var thirdPlanet = new Planet()
             {
                 Name = "Mars",
                 OrdinalNumber = 4,
                 EquatorLength = 10600
             };
+
             PlanetList.Add(thirdPlanet);
             temp = secondPlanet;
             thirdPlanet.PreviousPlanet = temp;
         }
 
         public string Validate(string planetName)
-        {               
-            callСounter++;
-            if (callСounter == 3)
+        {
+            _callСounter++;
+            if (_callСounter == 3)
             {
-                callСounter = 0;
+                _callСounter = 0;
                 return ("Вы спрашиваете слишком часто");
             }
 
@@ -58,11 +65,11 @@ namespace SixthApp.SecondProgram
 
         public (int, int, string) GetPlanet(string planetName)
         {
-            callСounter++;
-            if (callСounter == 3)
+            _callСounter++;
+            if (_callСounter == 3)
             {
                 Console.WriteLine("Вы спрашиваете слишком часто");
-                callСounter = 0;
+                _callСounter = 0;
                 return (0, 0, "Вы спрашиваете слишком часто");
             }
             var planet = PlanetList.Where(i => i.Name.ToUpper() == planetName.ToUpper()).FirstOrDefault();
@@ -77,7 +84,7 @@ namespace SixthApp.SecondProgram
             return (0, 0, "Не удалось найти планету");
         }
 
-        
+
 
         public (int, int, string) GetPlanet(string planetName, PlanetValidator planetValidator)
         {
